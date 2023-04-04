@@ -45,6 +45,28 @@ h3.logo {
     padding: 10px;
 }
 
+#refreshButton {
+    border: none;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+.btn {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    display: none;
+}
+
+#refreshButton:hover {
+    background-color: red;
+}
+
 @media screen and (max-width:578px) {
     .container {
         width: 80%;
@@ -54,5 +76,9 @@ h3.logo {
 
     #time {
         font-size: 24px;
+    }
+
+    .btn {
+        display: block;
     }
 }

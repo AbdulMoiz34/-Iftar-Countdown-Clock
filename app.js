@@ -40,3 +40,7 @@ if (date === "" || time === "") {
     }
     setInterval(countDownTime, 1000);
 }
+// Refresh btn for mobiles,...
+document.getElementById("refreshButton").addEventListener("click", function () {
+    location.reload();
+});
