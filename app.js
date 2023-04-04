@@ -30,8 +30,7 @@ if (date === "" || time === "") {
         }
         if (hour < 0) {
             h1.innerText = "Iftar time hogya.";
-        }
-        if (isNaN(hour)) {
+        } else if (isNaN(hour)) {
             h1.innerText = "Izzat ky dairy me rah kar enter kro!";
         } else {
             h1.innerText = "Time left: " + hour + " hour " + min + " min " + sec + " sec";
